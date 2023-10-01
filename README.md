@@ -28,6 +28,10 @@ npm run test
 To deploy contracts, use check `scripts/deploy.js` script and use following command:
 ```sh
 npm run deploy
+```
+
+To run Transaction Mint and Transfer 1 Token to 0x16af037878a6cAce2Ea29d39A3757aC2F6F7aac1, use check `scripts/transaction.js`
+```sh
 npx hardhat run scripts/transaction.js
 ```
 
