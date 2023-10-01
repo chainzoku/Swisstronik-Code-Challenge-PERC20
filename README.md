@@ -33,6 +33,12 @@ npx hardhat run scripts/transaction.js
 
 ### Sample Result
 
+Information
+```
+Token Name   : ChainZoku
+Token Symbol : CZ
+```
+
 Smart Contract
 ```
 0x4620aeb05B14AE55FC6322826338A1DdE59a882b
