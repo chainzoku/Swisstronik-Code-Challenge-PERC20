@@ -1,12 +1,12 @@
 const hre = require("hardhat")
 const { sendSignedShieldedQuery } = require("./utils");
 
-describe("PERC20 Example", function () {
+describe("Swisstronik PERC20 Example", function () {
   let perc20, wallet
 
   before(async () => {
-    // Deploy PERC20Sample.sol
-    const PERC20 = await hre.ethers.getContractFactory("PERC20Sample")
+    // Deploy SwisstronikPERC20.sol
+    const PERC20 = await hre.ethers.getContractFactory("SwisstronikPERC20")
     perc20 = await PERC20.deploy()
     await perc20.deployed()
 
